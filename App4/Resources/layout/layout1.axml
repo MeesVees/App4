@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+  <ImageView
+      android:id="@+id/ListViewCarImg"
+      android:layout_width="55dp"
+      android:layout_height="55dp"
+      android:padding="5dp"
+      android:layout_alignParentLeft="true"
+      android:clickable="true"
+      android:focusable="false"
+      android:focusableInTouchMode="false" />
+  <TextView
+      android:id="@+id/tootja"
+      android:text="Text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true" />
+  <TextView
+    android:id="@+id/KW"
+    android:text="Text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/ListViewCarImg"
+    android:layout_centerInParent="true" />
+  <TextView     
+      android:id="@+id/model"
+      android:text="Text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="10dp"
+      android:layout_below="@id/tootja"
+      android:layout_alignParentEnd="true" />
+</RelativeLayout>
